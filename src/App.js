@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 //Common
-import Title from './Components/Common/Title';
+import Header from "./Components/Common/Header"
+import Main from "./Components/Main"
+/* import Title from './Components/Common/Title';
 import MovieList from './Components/Common/MovieList';
 
 const titles = ["Breaking Bad","Narcos","Game of Thrones"];
@@ -17,6 +19,15 @@ function App() {
         <MovieList titles={titles}/>
     </div>
   );
+} */
+
+const App =  () => {
+  return (
+    <div>
+      <Header />
+      <Main />
+    </div>
+  )
 }
 
 export default App;
